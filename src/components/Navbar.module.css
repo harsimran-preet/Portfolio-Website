@@ -1,0 +1,59 @@
+.myPic{
+    width: 100px;
+    object-fit: contain;
+    border-radius: 100px;
+    border: 15px solid rgb(0, 0, 0, 0.1);
+}
+
+.icons{
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: 30px;
+}
+.icons>a{
+    width: 34px;
+    height: 34px;
+    border: 2px solid #b8b8c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #b8b8c7;
+}
+.icons>a:first-child:hover{
+    background-color: white;
+    color: #0000ff !important
+}
+.icons>a:nth-of-type(2):hover{
+    background-color: white;
+    color: #f09411 !important;
+}
+.icons>a:nth-of-type(3):hover{
+    background-color: white;
+    color: #ff0000 !important
+}
+.icons>a:nth-of-type(4):hover{
+    background-color: white;
+    color: #000000 !important
+}
+.icons>a:nth-of-type(5):hover{
+    background-color: white;
+    color: #0e76a8 !important
+}
+.icons>a:nth-of-type(6):hover{
+    background-color: white;
+    color: #1DA1F2 !important
+}
+.menuItem{
+    cursor: pointer;
+}
+.menuItem:hover{
+    color: #ffffff !important
+}
+.hr{
+    background-color: #b8b8c7;
+    height: 0.3px;
+    border-radius: 100px;
+    margin-top: 10px;
+    width: 240px;
+}

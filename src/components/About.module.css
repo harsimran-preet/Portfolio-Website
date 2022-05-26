@@ -1,0 +1,137 @@
+.about{
+    background-color: #110022;
+}
+.heading{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-family: LeagueSpartan;
+}
+.aboutSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+.me{
+    margin: 20px;
+    width: 420px;
+    height: 420px;
+    object-fit: contain;
+}
+.aboutInfo{
+    width : 47%;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.tittle{
+    color: #037fff;
+    font-size: xx-large;
+    /* text-align: center; */
+    font-family: OpenSans;
+    cursor: default;
+    user-select: none;
+    
+}
+.hi{
+    color: white;   
+}
+.tittleDes{
+    color: #b8b8c7;
+    font-family: OpenSans;
+    cursor: default;
+    user-select: none;
+    font-size: 1.20em;
+
+}
+.allData{
+    font-family: OpenSans;
+    font-size: 1.20em;
+    margin-bottom: 6px;
+}
+.data{
+    font-family: OpenSans;
+    font-size: 1.20em;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.dataCont{
+    color: #b8b8c7;
+    display: flex;
+}
+.dots{
+    font-family: OpenSans;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: #b8b8c7;
+    font-size: 1.20em;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+@media only screen and (max-width:700px){
+    .aboutInfo{
+        width: 100%;
+    }
+   .allData{
+       width: 210px;
+       font-size: 0.90em;
+   }
+   .data{
+       width: 90px;
+       font-size: 0.90em;
+   }
+   .dots{
+       width:20px;
+       font-size: 0.90em;
+       margin-left: 2px;
+       margin-right: 0px;
+   }
+   .tittleDes{
+       font-size: 1em;
+   }
+   .heading{
+    font-size: xx-large;
+}
+  }
+
+  @media only screen and (max-width:768px) and (min-width:700px) {
+    .aboutInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .allData{
+       width: 400px;
+       font-size: 1.2em;
+   }
+   .data{
+       width: 150px;
+       font-size: 1.2em;
+   }
+   .dots{
+       width:30px;
+       font-size: 1.2em;
+       margin-left: 2px;
+       margin-right: 0px;
+   }
+   .tittle{
+       font-size: xxx-large;
+   }
+   .tittleDes{
+       font-size: 1.2em;
+       width: 100%;
+       margin-left: 80px;
+   }
+   .heading{
+    font-size: xxx-large;
+}
+  }
